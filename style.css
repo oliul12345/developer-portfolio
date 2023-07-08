@@ -62,7 +62,7 @@ ul > li,a{
 }
 .banner-content{
     max-width: 500px;
-    margin-right: 50px;
+  
 }
 .profile{
     width: 500px;
@@ -129,7 +129,7 @@ footer{
     background-color: #FFF8F3;
     display: flex;
     margin-top: 100px;
-    gap: 100px;
+    gap: 150px;
     padding: 100px 200px;
 }
 #input{
