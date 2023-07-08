@@ -31,7 +31,7 @@ ul > li,a{
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
-    padding: 15px;
+    padding: 14px 18px;
     border: none;
     border-radius: 5px;
 }
@@ -39,6 +39,7 @@ ul > li,a{
     background-color: #f0edec;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: bottom right;
 }
 /* banner style */
@@ -82,4 +83,62 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-between;
+}
+/* what i do section */
+.section-title{
+    text-align: center;
+}
+#Do-text{
+    padding: 0 150px;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 50px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 10px 5px 10px 10px rgb(240, 232, 232);
+    border-radius: 10px;
+}
+/* resume-sction styles */
+.resume-main-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.resume-sub-head{
+    color: #757575;
+    font-size: 13px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-colum{
+    margin-right: 40px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer start  */
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    padding: 100px 200px;
+}
+#input{
+    padding: 5px 5px;
+}
+.footer-cols{
+    width: 50%;
+}
+input,textarea{
+    padding: 15px 25px;
+    border: none;
 }
