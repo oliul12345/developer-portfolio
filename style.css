@@ -37,9 +37,10 @@ ul > li,a{
 }
 .header{
     background-color: #f0edec;
-    background-image: url(images/header_bg.png);
+    background-image: url(images/header_bg.png) ,url(images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+
 }
 /* banner style */
 .banner{
@@ -131,6 +132,7 @@ footer{
     margin-top: 100px;
     gap: 150px;
     padding: 100px 240px;
+    margin: 0 auto;
 }
 #input{
     padding: 5px 5px;
