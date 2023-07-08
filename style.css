@@ -79,3 +79,7 @@ main{
     text-align: center;
     margin: 130px 0;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
